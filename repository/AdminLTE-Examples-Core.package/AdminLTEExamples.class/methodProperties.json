@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"install" : "jupiter 02/12/2017 13:34" },
+	"instance" : {
+		"renderContentOn:" : "jupiter 02/12/2017 14:46",
+		"renderHeaderOn:" : "jupiter 02/12/2017 14:45",
+		"renderLogoOn:" : "jupiter 02/12/2017 14:42",
+		"renderNavBarMailItemOn:" : "jupiter 02/12/2017 16:21",
+		"renderNavbarMailMenuOn:" : "jupiter 02/12/2017 16:45",
+		"renderNavbarOn:" : "jupiter 02/12/2017 15:20",
+		"renderSelectedPanelOn:" : "jupiter 02/12/2017 14:34",
+		"renderSidebarOn:" : "jupiter 02/12/2017 14:34",
+		"renderSidebarToggleOn:" : "jupiter 02/12/2017 15:11",
+		"updateRoot:" : "jupiter 02/12/2017 16:49" } }

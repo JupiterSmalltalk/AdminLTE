@@ -1,0 +1,2 @@
+rendering
+renderSidebarOn: canvas

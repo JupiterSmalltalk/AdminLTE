@@ -1,0 +1,3 @@
+seaside
+selectorsToInclude
+  ^ #(#'cssAdminLTECss' #'cssskinsallskinsCss')

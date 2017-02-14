@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfAdminLTE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfAdminLTE",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
