@@ -9,4 +9,5 @@ install
     addLibrary: TBSDevelopmentLibrary;
     addLibrary: TBSJasnyDevelopmentLibrary;
     addLibrary: FAWDevelopmentLibrary;
+    addLibrary: JQSlimScrollLibrary;
     addLibrary: AdminLTEFileLibrary

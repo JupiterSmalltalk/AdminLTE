@@ -1,33 +1,15 @@
 rendering-header
 renderNavbarMailMenuOn: canvas
-  canvas div
-    class: 'navbar-custom-menu';
-    with: [ 
-          canvas unorderedList
-            class: 'nav navbar-nav';
-            with: [ 
-                  canvas listItem
-                    tbsDropdown;
-                    with: [ 
-                          canvas tbsDropdownAnchor
-                            with: [ 
-                              (canvas tag: 'i')
-                                fontAwesome;
-                                fontAwesomeEnvelopeIcon.
-                              canvas tbsLabel
-                                beInfo;
-                                with: 10 ].
-                          canvas unorderedList
-                            class: 'dropdown-menu';
-                            with: [ 
-                                  canvas listItem
-                                    class: 'header';
-                                    with: 'You have 10 messages'.
-                                  canvas listItem
-                                    with: [ 
-                                      canvas unorderedList
-                                        class: 'menu';
-                                        with: [ canvas listItem with: [ self renderNavBarMailItemOn: canvas ] ] ].
-                                  canvas listItem
-                                    class: 'footer';
-                                    with: [ canvas anchor with: 'See all messages' ] ] ] ] ]
+  self
+    renderNavbarMenuClass: 'messages-menu'
+    dropdownBlock: [ :html | 
+      (html tag: 'i')
+        fontAwesome;
+        fontAwesomeEnvelopeIcon.
+      html tbsLabel
+        beInfo;
+        with: 10 ]
+    headerBlock: [ :html | html text: 'You have 10 messages' ]
+    contentBlock: [ :html | 5 timesRepeat: [ html listItem with: [ self renderNavBarMailItemOn: html ] ] ]
+    footerBlock: [ :html | html anchor with: 'See all messages' ]
+    on: canvas
