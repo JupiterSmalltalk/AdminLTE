@@ -16,5 +16,6 @@ renderSidebarUserPanelOn: canvas
             with: [ 
               (canvas tag: 'i')
                 fontAwesome;
-                fontAwesomeCircleIcon.
+                fontAwesomeCircleIcon;
+                class: 'text-success'.
               canvas text: ' Online' ] ]

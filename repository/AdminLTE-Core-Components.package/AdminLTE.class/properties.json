@@ -1,0 +1,16 @@
+{
+	"category" : "AdminLTE-Core-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"navbarItems",
+		"adminComponents" ],
+	"name" : "AdminLTE",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEAbstractComponent",
+	"type" : "normal" }

@@ -1,0 +1,2 @@
+rendering-sidebar-control
+renderSidebarControlOn: canvas

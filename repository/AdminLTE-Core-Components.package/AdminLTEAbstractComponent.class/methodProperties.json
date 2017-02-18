@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"backgroundColor:tag:" : "jupiter 02/17/2017 18:26",
+		"color:tag:" : "jupiter 02/17/2017 18:27",
+		"renderIcon:color:on:" : "jupiter 02/18/2017 14:01",
+		"renderIfValueFromObjectOrBlock:on:" : "jupiter 02/18/2017 14:31",
+		"renderTemplate:ifValueFromObjectOrBlock:on:" : "jupiter 02/17/2017 18:13",
+		"stringFromObjectOrBlock:" : "jupiter 02/17/2017 18:13",
+		"style:color:tag:" : "jupiter 02/17/2017 18:27" } }

@@ -8,7 +8,7 @@ renderSidebarOn: canvas
             with: [ self renderSidebarUserPanelOn: canvas ].
           canvas form
             class: 'sidebar-form';
-            with: [  ].
+            with: [ self renderSidebarSearchOn: canvas ].
           canvas unorderedList
             class: 'sidebar-menu';
-            with: [  ] ]
+            with: [ self renderSidebarMenuOn: canvas ] ]

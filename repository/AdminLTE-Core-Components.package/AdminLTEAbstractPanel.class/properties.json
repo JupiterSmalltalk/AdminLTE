@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Core-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AdminLTEAbstractPanel",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEAbstractComponent",
+	"type" : "normal" }

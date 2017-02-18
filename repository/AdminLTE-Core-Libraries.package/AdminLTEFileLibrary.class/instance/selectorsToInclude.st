@@ -1,3 +1,3 @@
 seaside
 selectorsToInclude
-  ^ #(#'cssAdminLTECss' #'cssskinsallskinsCss')
+  ^ #(#'cssAdminLTECss' #'cssskinsallskinsCss' #'jsappJs')

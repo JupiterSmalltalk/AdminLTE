@@ -1,0 +1,26 @@
+{
+	"category" : "AdminLTE-Core-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"label",
+		"labelColor",
+		"icon",
+		"iconColor",
+		"badge",
+		"badgeColor",
+		"cssClass",
+		"tags",
+		"menuHeader",
+		"menuContent",
+		"menuItems",
+		"menuFooter" ],
+	"name" : "AdminLTENavbarItem",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEAbstractComponent",
+	"type" : "normal" }
