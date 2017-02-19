@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"icon",
+		"label",
+		"badge",
+		"tags",
+		"cssClass",
+		"properties" ],
 	"name" : "AdminLTEAbstractComponent",
 	"pools" : [
 		 ],

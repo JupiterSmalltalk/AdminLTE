@@ -1,4 +1,0 @@
-accessing
-badgeColor
-
-   ^badgeColor

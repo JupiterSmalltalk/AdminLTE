@@ -18,21 +18,21 @@ renderMenuMailItem: menuItem on: canvas
         with: [ 
               self renderIfValueFromObjectOrBlock: (menuItem at: #'heading') on: canvas.
               menuItem
-                at: #'tagText'
-                ifPresent: [ :tagText | 
+                at: #'labelText'
+                ifPresent: [ :labelText | 
                   | tag |
                   tag := canvas small.
                   self
-                    color: (menuItem at: #'tagColor' ifAbsent: [ nil ])
+                    color: (menuItem at: #'labelColor' ifAbsent: [ nil ])
                     tag: tag.
                   tag
                     with: [ 
                       self
                         renderIcon:
-                          (menuItem at: #'tagIcon' ifAbsent: [ #'clockOutlined' ])
+                          (menuItem at: #'labelIcon' ifAbsent: [ #'clockOutlined' ])
                         color: nil
                         on: canvas.
                       canvas space.
-                      self renderIfValueFromObjectOrBlock: tagText on: canvas ] ] ].
+                      self renderIfValueFromObjectOrBlock: labelText on: canvas ] ] ].
       canvas paragraph
         with: [ self renderIfValueFromObjectOrBlock: (menuItem at: #'text') on: canvas ] ]

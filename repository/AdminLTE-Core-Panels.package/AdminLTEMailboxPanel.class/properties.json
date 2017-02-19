@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Core-Panels",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AdminLTEMailboxPanel",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEContentPanel",
+	"type" : "normal" }

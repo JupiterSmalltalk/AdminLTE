@@ -8,4 +8,6 @@ baseline: spec
 			package: 'AdminLTE-Core-Libraries';
 			package: 'AdminLTE-Examples-Core';
 			package: 'AdminLTE-Core-Model';
-			package: 'AdminLTE-Core-Announcements'. ].
+			package: 'AdminLTE-Core-Announcements';
+			package: 'AdminLTE-Core-Panels';
+			package: 'AdminLTE-Core-Widgets'. ].

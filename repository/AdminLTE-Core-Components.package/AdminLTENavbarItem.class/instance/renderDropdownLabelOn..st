@@ -4,7 +4,7 @@ renderDropdownLabelOn: canvas
     renderTemplate: [ :html :valueBlock | 
       | spanTag |
       spanTag := html span.
-      self color: labelColor tag: spanTag.
+      self color: self labelColor tag: spanTag.
       spanTag
         with: [ 
           html space.

@@ -1,3 +1,3 @@
 rendering
 renderDropdownIconOn: canvas
-  self renderIcon: icon color: iconColor on: canvas
+  self renderIcon: icon color: self iconColor on: canvas

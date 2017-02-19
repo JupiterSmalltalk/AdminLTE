@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"announcer",
-		"navbarItems",
-		"adminComponents" ],
+		"navbarItems" ],
 	"name" : "AdminLTE",
 	"pools" : [
 		 ],
-	"super" : "AdminLTEAbstractComponent",
+	"super" : "AdminLTEContentPanel",
 	"type" : "normal" }

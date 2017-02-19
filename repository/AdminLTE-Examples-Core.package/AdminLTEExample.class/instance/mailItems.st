@@ -8,8 +8,8 @@ mailItems
               put: [ self announcer announce: (AdminLTEPanelSelected panel: AdminLTEMailboxPanel) ];
             at: #'heading' put: 'Seaside and AdminLTE';
             at: #'text' put: 'Making admin interfaces easy.';
-            at: #'tagColor' put: Color green;
-            at: #'tagText' put: '5 mins';
+            at: #'labelColor' put: Color green;
+            at: #'labelText' put: '5 mins';
             yourself);
     add:
         (Dictionary new
@@ -22,21 +22,21 @@ mailItems
                     text: 'There ';
                     strong: ' is ';
                     text: 'no other language like it.' ];
-            at: #'tagText' put: [ '1 day' ];
+            at: #'labelText' put: [ '1 day' ];
             yourself);
     add:
         (Dictionary new
             at: #'imageUrl' put: AdminLTEFileLibrary / #'imguser6128x128Jpg';
             at: #'heading' put: 'Is the answer 42?';
             at: #'text' put: 'Did Deep Thought get it wrong?';
-            at: #'tagText' put: '10 days';
+            at: #'labelText' put: '10 days';
             yourself);
     add:
         (Dictionary new
             at: #'imageUrl' put: AdminLTEFileLibrary / #'imguser5128x128Jpg';
             at: #'heading' put: 'MyNation.Earth';
             at: #'text' put: 'Join a nation built for you!';
-            at: #'tagText' put: '5 days';
+            at: #'labelText' put: '5 days';
             yourself);
     add:
         (Dictionary new

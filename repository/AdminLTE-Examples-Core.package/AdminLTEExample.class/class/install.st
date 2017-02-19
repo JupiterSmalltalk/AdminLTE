@@ -3,9 +3,7 @@ install
   "Install the example"
 
   | application |
-  application := WAAdmin
-    register: self
-    asApplicationAt: 'examples/AdminLTEExample'.
+  application := WAAdmin register: self asApplicationAt: 'examples/AdminLTE'.
   application
     addLibrary: JQ2DevelopmentLibrary;
     addLibrary: TBSDevelopmentLibrary;
