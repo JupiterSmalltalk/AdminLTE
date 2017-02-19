@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAdminPanel:" : "jupiter 02/19/2017 00:28",
+		"addAdminPanel:" : "jupiter 02/19/2017 02:22",
 		"adminPanels" : "jupiter 02/18/2017 23:56",
-		"initialize" : "jupiter 02/18/2017 23:57" } }
+		"children" : "jupiter 02/19/2017 02:37",
+		"initialize" : "jupiter 02/19/2017 03:13",
+		"rootAnnouncer" : "jupiter 02/19/2017 02:28" } }

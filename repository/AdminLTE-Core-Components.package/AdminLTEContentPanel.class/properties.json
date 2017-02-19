@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"adminPanels" ],
+		"announcer",
+		"adminPanels",
+		"selectedPanel" ],
 	"name" : "AdminLTEContentPanel",
 	"pools" : [
 		 ],

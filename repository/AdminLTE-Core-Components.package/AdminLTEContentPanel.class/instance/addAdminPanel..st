@@ -1,3 +1,8 @@
 panels
 addAdminPanel: anAdminLTEContentPanel
-  adminPanels add: anAdminLTEContentPanel
+  adminPanels ifEmpty: [ selectedPanel := anAdminLTEContentPanel ].
+  adminPanels
+    add:
+      (anAdminLTEContentPanel
+        parent: self;
+        yourself)

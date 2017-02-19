@@ -6,4 +6,5 @@ initialize
     addNavbarItem: self exampleNavbarNotificationsMenu;
     addNavbarItem: self exampleNavbarTasksMenu;
     addAdminPanel: AdminLTEDashboardPanel new;
-    addAdminPanel: AdminLTEMailboxPanel new
+    addAdminPanel: AdminLTEMailboxPanel new;
+    addAdminPanel: AdminLTEWidgetShowcasePanel new
