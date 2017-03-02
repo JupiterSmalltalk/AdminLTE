@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAdminPanel:" : "jupiter 02/19/2017 02:22",
-		"adminPanels" : "jupiter 02/18/2017 23:56",
-		"children" : "jupiter 02/19/2017 02:37",
-		"initialize" : "jupiter 02/19/2017 03:13",
+		"addPanel:" : "jupiter 02/19/2017 13:49",
+		"children" : "jupiter 02/19/2017 13:53",
+		"initialize" : "jupiter 02/19/2017 13:50",
+		"panelSelectedAnnouncement:" : "jupiter 02/19/2017 13:24",
+		"panels" : "jupiter 02/19/2017 13:54",
+		"renderAdminContentOn:" : "jupiter 02/22/2017 01:04",
+		"renderBreadcrumbItem:on:" : "jupiter 02/22/2017 00:26",
+		"renderBreadcrumbOn:" : "jupiter 02/21/2017 22:52",
+		"renderContentOn:" : "jupiter 02/22/2017 01:11",
+		"renderHeadingOn:" : "jupiter 02/23/2017 01:33",
+		"renderSubheadingOn:" : "jupiter 02/21/2017 21:43",
 		"rootAnnouncer" : "jupiter 02/19/2017 02:28" } }

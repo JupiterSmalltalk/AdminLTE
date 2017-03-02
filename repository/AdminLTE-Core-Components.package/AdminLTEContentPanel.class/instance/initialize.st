@@ -1,8 +1,8 @@
 initialisation
 initialize
   super initialize.
-  adminPanels := OrderedCollection new.
+  panels := OrderedCollection new.
   (announcer := Announcer new)
     on: AdminLTEPanelSelected
-    do: [ :announcement | selectedPanel := announcement panel ]
-    for: self
+    send: #'panelSelectedAnnouncement:'
+    to: self

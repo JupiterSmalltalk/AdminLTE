@@ -1,3 +1,3 @@
 accessing
 children
-  ^ super children , adminPanels
+  ^ super children , panels

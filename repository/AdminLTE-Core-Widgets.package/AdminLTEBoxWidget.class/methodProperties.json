@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beCollapsible" : "jupiter 02/26/2017 04:23",
+		"beRemovable" : "jupiter 02/26/2017 04:24",
+		"collapse" : "jupiter 02/26/2017 04:26",
+		"expand" : "jupiter 02/26/2017 04:25",
+		"footer" : "jupiter 02/25/2017 13:30",
+		"footer:" : "jupiter 02/25/2017 13:29",
+		"isCollapsed" : "jupiter 02/25/2017 23:59",
+		"isCollapsible" : "jupiter 02/26/2017 04:27",
+		"isRemovable" : "jupiter 02/26/2017 04:20",
+		"isRemoved" : "jupiter 02/26/2017 00:03",
+		"remove" : "jupiter 02/26/2017 04:22",
+		"renderContentOn:" : "jupiter 02/27/2017 17:20",
+		"toggleCollapse" : "jupiter 02/26/2017 04:35" } }

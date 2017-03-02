@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Core-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AdminLTEInfoBox2Widget",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEInfoBoxWidget",
+	"type" : "normal" }

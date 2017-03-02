@@ -9,7 +9,12 @@ exampleNavbarNotificationsMenu
     menuHeader: [ 'You have ' , self mailItems size asString , ' notifications' ];
     menuFooter: [ :canvas | 
           canvas anchor
-            callback: [  ];
+            callback: [ 
+                  announcer
+                    announce:
+                      (AdminLTEPanelSelected
+                        panel:
+                          (panels detect: [ :panel | panel class == AdminLTEWidgetShowcasePanel ])) ];
             with: [ canvas text: 'View All Notifications' ] ];
     menuItems: [ self notificationItems ];
     menuContent: #'notification';

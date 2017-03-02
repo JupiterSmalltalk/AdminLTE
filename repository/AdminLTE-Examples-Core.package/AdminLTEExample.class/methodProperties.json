@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"install" : "jupiter 02/18/2017 20:54" },
+		"install" : "jupiter 02/19/2017 13:57" },
 	"instance" : {
-		"exampleNavbarMailMenu" : "jupiter 02/18/2017 21:42",
-		"exampleNavbarNotificationsMenu" : "jupiter 02/18/2017 21:42",
+		"exampleNavbarMailMenu" : "jupiter 02/19/2017 13:53",
+		"exampleNavbarNotificationsMenu" : "jupiter 02/19/2017 13:54",
 		"exampleNavbarTasksMenu" : "jupiter 02/18/2017 21:42",
-		"initialize" : "jupiter 02/19/2017 02:05",
+		"initialize" : "jupiter 02/19/2017 14:03",
 		"mailItems" : "jupiter 02/18/2017 17:42",
 		"notificationItems" : "jupiter 02/18/2017 16:02",
 		"taskItems" : "jupiter 02/18/2017 17:48" } }

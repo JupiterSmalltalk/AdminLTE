@@ -9,7 +9,12 @@ exampleNavbarMailMenu
     menuHeader: [ 'You have ' , self mailItems size asString , ' messages' ];
     menuFooter: [ :canvas | 
           canvas anchor
-            callback: [ self announcer announce: (AdminLTEPanelSelected panel: AdminLTEMailboxPanel) ];
+            callback: [ 
+                  announcer
+                    announce:
+                      (AdminLTEPanelSelected
+                        panel:
+                          (panels detect: [ :panel | panel class == AdminLTEMailboxPanel ])) ];
             with: [ canvas text: 'View All Messages' ] ];
     menuItems: [ self mailItems ];
     menuContent: #'mail';

@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Examples-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 02/19/2017 14:02",
+	"instvars" : [
+		 ],
+	"name" : "AdminLTEWSocialWidgetShowcasePanel",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEContentPanel",
+	"type" : "normal" }

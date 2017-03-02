@@ -11,4 +11,8 @@ renderSidebarOn: canvas
             with: [ self renderSidebarSearchOn: canvas ].
           canvas unorderedList
             class: 'sidebar-menu';
-            with: [ self renderSidebarMenuOn: canvas ] ]
+            with: [ 
+                  canvas listItem
+                    class: 'header';
+                    with: [ canvas text: 'MAIN NAVIGATION' ].
+                  self renderSidebarMenuPanels: panels on: canvas ] ]
