@@ -5,6 +5,7 @@
 		"addTagLabled:" : "jupiter 02/18/2017 21:25",
 		"addTagLabled:color:" : "jupiter 02/18/2017 21:24",
 		"backgroundColor:tag:" : "jupiter 02/18/2017 20:56",
+		"backgroundColorClass" : "jupiter 03/06/2017 18:38",
 		"badge" : "jupiter 02/18/2017 23:38",
 		"badge:" : "jupiter 02/18/2017 21:49",
 		"badgeColor" : "jupiter 02/18/2017 21:17",
@@ -37,4 +38,8 @@
 		"searchString" : "jupiter 02/18/2017 21:28",
 		"stringFromObjectOrBlock:" : "jupiter 02/18/2017 20:56",
 		"style:color:tag:" : "jupiter 02/18/2017 20:56",
-		"tags" : "jupiter 02/18/2017 21:06" } }
+		"tags" : "jupiter 02/18/2017 21:06",
+		"tbsColorClass" : "jupiter 03/06/2017 18:39",
+		"tbsColorMap" : "jupiter 03/06/2017 18:39",
+		"widgetColor" : "jupiter 03/06/2017 18:39",
+		"widgetColor:" : "jupiter 03/06/2017 18:39" } }

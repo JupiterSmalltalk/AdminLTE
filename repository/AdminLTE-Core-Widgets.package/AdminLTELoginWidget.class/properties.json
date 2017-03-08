@@ -1,15 +1,14 @@
 {
-	"category" : "AdminLTE-Core-Components",
+	"category" : "AdminLTE-Core-Widgets",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"navbarItems",
-		"user" ],
-	"name" : "AdminLTE",
+		 ],
+	"name" : "AdminLTELoginWidget",
 	"pools" : [
 		 ],
-	"super" : "AdminLTEContentPanel",
+	"super" : "AdminLTEAbstractWidget",
 	"type" : "normal" }

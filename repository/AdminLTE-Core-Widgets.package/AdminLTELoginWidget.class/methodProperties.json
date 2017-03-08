@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"renderContentOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetEmailInputOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetErrorOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetFormOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetMessageOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetPasswordInputOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetSignInRowOn:" : "jupiter 03/08/2017 15:17" } }

@@ -4,4 +4,6 @@ updateRoot: anHtmlRoot
   anHtmlRoot
     adminLTEFixedHeaderAndSidebar;
     adminLTECollapsedSidebar;
-    adminLTESkinBlue
+    adminLTESkinBlue.
+  user
+    ifNil: [ anHtmlRoot bodyAttributes addClass: 'hold-transition login-page' ]

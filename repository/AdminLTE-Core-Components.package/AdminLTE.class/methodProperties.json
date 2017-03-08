@@ -9,9 +9,16 @@
 		"initialize" : "jupiter 02/19/2017 03:13",
 		"navbarItems" : "jupiter 02/16/2017 13:55",
 		"renderAdminContentOn:" : "jupiter 02/22/2017 01:08",
-		"renderContentOn:" : "jupiter 02/16/2017 13:50",
+		"renderContentOn:" : "jupiter 03/07/2017 14:45",
 		"renderControlSidebarToggleOn:" : "jupiter 02/17/2017 18:58",
 		"renderHeaderOn:" : "jupiter 02/16/2017 13:51",
+		"renderLoginWidgetEmailInputOn:" : "jupiter 03/07/2017 15:23",
+		"renderLoginWidgetErrorOn:" : "jupiter 03/07/2017 16:15",
+		"renderLoginWidgetFormOn:" : "jupiter 03/07/2017 15:15",
+		"renderLoginWidgetMessageOn:" : "jupiter 03/07/2017 16:15",
+		"renderLoginWidgetOn:" : "jupiter 03/07/2017 16:15",
+		"renderLoginWidgetPasswordInputOn:" : "jupiter 03/07/2017 15:04",
+		"renderLoginWidgetSignInRowOn:" : "jupiter 03/07/2017 15:31",
 		"renderLogoLargeOn:" : "jupiter 02/16/2017 13:50",
 		"renderLogoMiniOn:" : "jupiter 02/16/2017 13:50",
 		"renderLogoOn:" : "jupiter 02/16/2017 13:51",
@@ -24,4 +31,4 @@
 		"renderSidebarSearchOn:" : "jupiter 02/18/2017 19:44",
 		"renderSidebarToggleOn:" : "jupiter 02/16/2017 13:50",
 		"renderSidebarUserPanelOn:" : "jupiter 02/18/2017 19:43",
-		"updateRoot:" : "jupiter 02/20/2017 20:05" } }
+		"updateRoot:" : "jupiter 03/07/2017 15:54" } }

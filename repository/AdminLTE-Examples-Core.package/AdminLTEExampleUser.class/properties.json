@@ -1,15 +1,14 @@
 {
-	"category" : "AdminLTE-Core-Components",
+	"category" : "AdminLTE-Examples-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"navbarItems",
-		"user" ],
-	"name" : "AdminLTE",
+		"email" ],
+	"name" : "AdminLTEExampleUser",
 	"pools" : [
 		 ],
-	"super" : "AdminLTEContentPanel",
+	"super" : "Object",
 	"type" : "normal" }
