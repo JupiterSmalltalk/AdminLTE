@@ -3,6 +3,6 @@ initialize
   super initialize.
   panels := OrderedCollection new.
   (announcer := Announcer new)
-    on: AdminLTEPanelSelected
+    subscribe: AdminLTEPanelSelected
     send: #'panelSelectedAnnouncement:'
     to: self

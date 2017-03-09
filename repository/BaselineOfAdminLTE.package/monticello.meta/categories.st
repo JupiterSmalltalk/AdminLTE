@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'BaselineOfAdminLTE'!
+SystemOrganization addCategory: #BaselineOfAdminLTE!
