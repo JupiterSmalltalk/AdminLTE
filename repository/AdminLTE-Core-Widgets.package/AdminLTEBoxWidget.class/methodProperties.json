@@ -5,6 +5,8 @@
 		"beCollapsible" : "jupiter 02/26/2017 04:23",
 		"beRemovable" : "jupiter 02/26/2017 04:24",
 		"collapse" : "jupiter 02/26/2017 04:26",
+		"embeddedComponent" : "jupiter 03/24/2017 19:07",
+		"embeddedComponent:" : "jupiter 03/24/2017 19:07",
 		"expand" : "jupiter 02/26/2017 04:25",
 		"footer" : "jupiter 02/25/2017 13:30",
 		"footer:" : "jupiter 02/25/2017 13:29",
@@ -13,5 +15,5 @@
 		"isRemovable" : "jupiter 02/26/2017 04:20",
 		"isRemoved" : "jupiter 02/26/2017 00:03",
 		"remove" : "jupiter 02/26/2017 04:22",
-		"renderContentOn:" : "jupiter 02/27/2017 17:20",
+		"renderContentOn:" : "jupiter 03/24/2017 19:17",
 		"toggleCollapse" : "jupiter 02/26/2017 04:35" } }

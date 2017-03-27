@@ -5,5 +5,7 @@ updateRoot: anHtmlRoot
     adminLTEFixedHeaderAndSidebar;
     adminLTECollapsedSidebar;
     adminLTESkinBlue.
-  user
-    ifNil: [ anHtmlRoot bodyAttributes addClass: 'hold-transition login-page' ]
+  (self session respondsTo: #'isLoggedIn')
+    ifTrue: [ 
+      self session isLoggedIn
+        ifFalse: [ anHtmlRoot bodyAttributes addClass: 'hold-transition login-page' ] ]

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"navbarItems" ],
-	"name" : "AdminLTE",
+		 ],
+	"name" : "AdminLTEUserNavbarItem",
 	"pools" : [
 		 ],
-	"super" : "AdminLTEContentPanel",
+	"super" : "AdminLTENavbarItem",
 	"type" : "normal" }

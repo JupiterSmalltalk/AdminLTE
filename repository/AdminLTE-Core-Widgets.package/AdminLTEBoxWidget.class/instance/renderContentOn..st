@@ -13,7 +13,14 @@ renderContentOn: canvas
                       canvas heading
                         level3;
                         class: 'box-title';
-                        with: [ self renderIfValueFromObjectOrBlock: self label on: canvas ].
+                        with: [ 
+                              self icon
+                                ifNotNil: [ 
+                                  self renderIcon: self icon color: self iconColor on: canvas.
+                                  canvas space ].
+                              self
+                                renderIfValueFromObjectOrBlock: self label
+                                on: canvas ].
                       canvas div
                         class: 'box-tools';
                         tbsPullRight;
@@ -43,7 +50,7 @@ renderContentOn: canvas
                                     with: [ self renderIcon: #'times' color: nil on: canvas ] ] ] ].
               canvas div
                 class: 'box-body';
-                with: [ self renderIcon: self icon color: self iconColor on: canvas ].
+                with: [ canvas render: embeddedComponent ].
               canvas div
                 class: 'overlay';
                 style: 'display: none;';

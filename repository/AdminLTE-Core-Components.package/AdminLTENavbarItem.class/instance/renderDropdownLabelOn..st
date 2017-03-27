@@ -6,8 +6,9 @@ renderDropdownLabelOn: canvas
       spanTag := html span.
       self color: self labelColor tag: spanTag.
       spanTag
+        tbsHiddenForExtraSmallDevices;
         with: [ 
-          html space.
-          valueBlock value: html ] ]
+              html space.
+              valueBlock value: html ] ]
     ifValueFromObjectOrBlock: label
     on: canvas
