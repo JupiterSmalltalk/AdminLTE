@@ -15,5 +15,8 @@
 		"isRemovable" : "jupiter 02/26/2017 04:20",
 		"isRemoved" : "jupiter 02/26/2017 00:03",
 		"remove" : "jupiter 02/26/2017 04:22",
-		"renderContentOn:" : "jupiter 03/24/2017 19:17",
+		"renderBoxBodyOn:" : "jupiter 04/02/2017 19:30",
+		"renderBoxHeaderOn:" : "jupiter 04/02/2017 19:29",
+		"renderBoxOverlayOn:" : "jupiter 04/02/2017 19:30",
+		"renderContentOn:" : "jupiter 04/02/2017 19:31",
 		"toggleCollapse" : "jupiter 02/26/2017 04:35" } }

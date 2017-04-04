@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Core-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tabs" ],
+	"name" : "AdminLTETabBoxDecoration",
+	"pools" : [
+		 ],
+	"super" : "AdminLTEAbstractDecoration",
+	"type" : "normal" }

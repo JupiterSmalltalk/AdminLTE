@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jupiter 04/03/2017 23:18",
 	"instvars" : [
 		 ],
-	"name" : "AdminLTEPlaceholder",
+	"name" : "AdminLTEBoxTag",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TBSGenericTag",
 	"type" : "normal" }
