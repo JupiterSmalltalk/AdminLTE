@@ -11,6 +11,7 @@ renderSidebarOn: canvas
             with: [ self renderSidebarSearchOn: canvas ].
           canvas unorderedList
             class: 'sidebar-menu';
+            attributeAt: 'data-widget' put: 'tree';
             with: [ 
                   canvas listItem
                     class: 'header';

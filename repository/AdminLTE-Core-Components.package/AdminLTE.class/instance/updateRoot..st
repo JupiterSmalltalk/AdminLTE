@@ -2,6 +2,7 @@ rendering
 updateRoot: anHtmlRoot
   super updateRoot: anHtmlRoot.
   anHtmlRoot
+    adminLTEUseGoogleFonts;
     adminLTEFixedHeaderAndSidebar;
     adminLTECollapsedSidebar;
     adminLTESkinBlue.

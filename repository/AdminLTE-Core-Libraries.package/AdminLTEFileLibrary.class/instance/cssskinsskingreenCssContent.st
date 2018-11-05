@@ -75,9 +75,12 @@ cssskinsskingreenCssContent
   border-left: 3px solid transparent;
 }
 .skin-green .sidebar-menu > li:hover > a,
-.skin-green .sidebar-menu > li.active > a {
+.skin-green .sidebar-menu > li.active > a,
+.skin-green .sidebar-menu > li.menu-open > a {
   color: #ffffff;
   background: #1e282c;
+}
+.skin-green .sidebar-menu > li.active > a {
   border-left-color: #00a65a;
 }
 .skin-green .sidebar-menu > li > .treeview-menu {
@@ -90,11 +93,11 @@ cssskinsskingreenCssContent
 .skin-green .sidebar a:hover {
   text-decoration: none;
 }
-.skin-green .treeview-menu > li > a {
+.skin-green .sidebar-menu .treeview-menu > li > a {
   color: #8aa4af;
 }
-.skin-green .treeview-menu > li.active > a,
-.skin-green .treeview-menu > li > a:hover {
+.skin-green .sidebar-menu .treeview-menu > li.active > a,
+.skin-green .sidebar-menu .treeview-menu > li > a:hover {
   color: #ffffff;
 }
 .skin-green .sidebar-form {

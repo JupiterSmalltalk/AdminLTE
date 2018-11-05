@@ -63,9 +63,8 @@ cssskinsskinyellowlightCssContent
 .skin-yellow-light .left-side {
   background-color: #f9fafc;
 }
-.skin-yellow-light .content-wrapper,
-.skin-yellow-light .main-footer {
-  border-left: 1px solid #d2d6de;
+.skin-yellow-light .main-sidebar {
+  border-right: 1px solid #d2d6de;
 }
 .skin-yellow-light .user-panel > .info,
 .skin-yellow-light .user-panel > .info > a {
@@ -104,14 +103,14 @@ cssskinsskinyellowlightCssContent
 .skin-yellow-light .sidebar a:hover {
   text-decoration: none;
 }
-.skin-yellow-light .treeview-menu > li > a {
+.skin-yellow-light .sidebar-menu .treeview-menu > li > a {
   color: #777777;
 }
-.skin-yellow-light .treeview-menu > li.active > a,
-.skin-yellow-light .treeview-menu > li > a:hover {
+.skin-yellow-light .sidebar-menu .treeview-menu > li.active > a,
+.skin-yellow-light .sidebar-menu .treeview-menu > li > a:hover {
   color: #000000;
 }
-.skin-yellow-light .treeview-menu > li.active > a {
+.skin-yellow-light .sidebar-menu .treeview-menu > li.active > a {
   font-weight: 600;
 }
 .skin-yellow-light .sidebar-form {
