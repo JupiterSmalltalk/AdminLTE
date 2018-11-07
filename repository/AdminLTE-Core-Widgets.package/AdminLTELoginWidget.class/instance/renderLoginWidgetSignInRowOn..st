@@ -10,7 +10,7 @@ renderLoginWidgetSignInRowOn: canvas
                 with: [ 
                       canvas label
                         with: [ 
-                          canvas checkbox.
+                          canvas checkbox on: #'rememberMe' of: self.
                           canvas text: 'Remember me' ] ] ].
       canvas tbsColumn
         extraSmallSize: 4;
@@ -18,4 +18,7 @@ renderLoginWidgetSignInRowOn: canvas
               canvas tbsButton
                 bePrimary;
                 beBlock;
+                callback: [ 
+                      self validateUserName: self userName password: self password.
+                      self password: nil ];
                 with: [ canvas text: 'Sign In' ] ] ]

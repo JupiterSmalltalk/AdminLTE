@@ -2,11 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"password" : "jupiter 11/07/2018 14:51",
+		"password:" : "jupiter 11/07/2018 14:51",
+		"rememberMe" : "jupiter 11/07/2018 14:51",
+		"rememberMe:" : "jupiter 11/07/2018 14:51",
 		"renderContentOn:" : "jupiter 03/08/2017 15:17",
-		"renderLoginWidgetEmailInputOn:" : "jupiter 03/08/2017 15:17",
-		"renderLoginWidgetErrorOn:" : "jupiter 03/08/2017 15:17",
+		"renderLoginWidgetEmailInputOn:" : "jupiter 11/07/2018 14:49",
+		"renderLoginWidgetErrorOn:" : "jupiter 11/07/2018 14:50",
 		"renderLoginWidgetFormOn:" : "jupiter 03/08/2017 15:17",
 		"renderLoginWidgetMessageOn:" : "jupiter 03/08/2017 15:17",
 		"renderLoginWidgetOn:" : "jupiter 03/08/2017 15:17",
-		"renderLoginWidgetPasswordInputOn:" : "jupiter 03/08/2017 15:17",
-		"renderLoginWidgetSignInRowOn:" : "jupiter 03/08/2017 15:17" } }
+		"renderLoginWidgetPasswordInputOn:" : "jupiter 11/07/2018 14:50",
+		"renderLoginWidgetSignInRowOn:" : "jupiter 11/07/2018 14:50",
+		"userName" : "jupiter 11/07/2018 14:52",
+		"userName:" : "jupiter 11/07/2018 14:52" } }

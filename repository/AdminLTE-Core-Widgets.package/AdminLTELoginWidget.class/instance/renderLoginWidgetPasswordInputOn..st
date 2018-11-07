@@ -4,6 +4,7 @@ renderLoginWidgetPasswordInputOn: canvas
     class: 'has-feedback';
     with: [ 
           canvas passwordInput
+            callback: [ :value | self password: value ];
             tbsFormControl;
             placeholder: 'Password'.
           canvas span

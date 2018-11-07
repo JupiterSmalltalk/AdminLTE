@@ -4,6 +4,7 @@ renderLoginWidgetEmailInputOn: canvas
     class: 'has-feedback';
     with: [ 
           canvas emailInput
+            on: #'userName' of: self;
             tbsFormControl;
             placeholder: 'Email'.
           canvas span
