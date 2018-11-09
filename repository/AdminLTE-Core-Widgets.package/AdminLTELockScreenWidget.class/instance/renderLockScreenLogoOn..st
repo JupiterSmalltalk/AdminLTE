@@ -1,0 +1,2 @@
+rendering
+renderLockScreenLogoOn: canvas

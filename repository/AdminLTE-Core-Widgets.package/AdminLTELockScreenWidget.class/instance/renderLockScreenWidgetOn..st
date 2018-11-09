@@ -5,7 +5,7 @@ renderLockScreenWidgetOn: canvas
     with: [ 
           canvas div
             class: 'lockscreen-logo';
-            with: [ self renderLogoOn: canvas ].
+            with: [ self renderLockScreenLogoOn: canvas ].
           canvas div
             class: 'lockscreen-name';
             with: [ canvas text: self userName ].
@@ -14,8 +14,8 @@ renderLockScreenWidgetOn: canvas
             with: [ 
                   canvas div
                     class: 'lockscreen-image';
-                    with: [ self renderLockScreenImageOn: canvas ] ].
-          self renderPasswordFormOn: canvas.
+                    with: [ self renderLockScreenImageOn: canvas ].
+                  self renderPasswordFormOn: canvas ].
           canvas div
             class: 'help-block';
             class: 'text-center';

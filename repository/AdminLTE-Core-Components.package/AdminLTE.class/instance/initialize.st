@@ -2,4 +2,4 @@ initialisation
 initialize
   super initialize.
   navbarItems := OrderedCollection new.
-  user := AdminLTEExampleUser new
+  self session user: AdminLTEExampleUser new

@@ -3,7 +3,7 @@ renderPasswordFormOn: canvas
   canvas form
     class: 'lockscreen-credentials';
     with: [ 
-          canvas tbsFormGroup
+          canvas tbsInputGroup
             with: [ 
               canvas passwordInput
                 callback: [ :value | self password: value ];
@@ -18,4 +18,4 @@ renderPasswordFormOn: canvas
                     with: [ 
                           (canvas tag: 'i')
                             fontAwesome;
-                            fontAwesomeArrowRightIcon ] ] ] ]
+                            fontAwesomeArrowRigtIcon ] ] ] ]

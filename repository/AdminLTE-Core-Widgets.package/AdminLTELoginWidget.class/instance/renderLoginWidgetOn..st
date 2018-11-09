@@ -5,7 +5,7 @@ renderLoginWidgetOn: canvas
     with: [ 
           canvas div
             class: 'login-logo';
-            with: [ self renderLogoLargeOn: canvas ].
+            with: [ self renderLoginWidgetLogoOn: canvas ].
           canvas div
             class: 'login-box-body';
             with: [ 

@@ -4,7 +4,6 @@ updateRoot: anHtmlRoot
   anHtmlRoot
     adminLTEUseGoogleFonts;
     adminLTEFixedHeaderAndSidebar;
-    adminLTECollapsedSidebar;
     adminLTESkinBlue.
   (self session respondsTo: #'isLoggedIn')
     ifTrue: [ 
