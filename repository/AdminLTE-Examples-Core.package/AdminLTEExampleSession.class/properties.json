@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AdminLTEExampleUser",
+		"user" ],
+	"name" : "AdminLTEExampleSession",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WASession",
 	"type" : "normal" }

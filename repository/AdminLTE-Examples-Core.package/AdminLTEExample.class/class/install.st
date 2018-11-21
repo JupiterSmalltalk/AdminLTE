@@ -4,6 +4,7 @@ install
 
   | application |
   application := WAAdmin register: self asApplicationAt: 'examples/AdminLTE'.
+  application preferenceAt: #'sessionClass' put: AdminLTEExampleSession.
   application
     addLibrary: JQ2DevelopmentLibrary;
     addLibrary: TBSDevelopmentLibrary;

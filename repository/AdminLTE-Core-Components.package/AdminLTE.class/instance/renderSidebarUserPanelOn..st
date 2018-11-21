@@ -6,12 +6,12 @@ renderSidebarUserPanelOn: canvas
     with: [ 
           canvas tbsImage
             beCircle;
-            url: AdminLTEFileLibrary / #'imguser2160x160Jpg' ].
+            url: AdminLTEFileLibrary / #'imguser6128x128Jpg' ].
   canvas div
     tbsPullLeft;
     class: 'info';
     with: [ 
-          canvas paragraph: 'Jupiter Jones'.
+          canvas paragraph: self userName.
           canvas anchor
             with: [ 
               (canvas tag: 'i')

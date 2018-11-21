@@ -1,6 +1,6 @@
 accessing
 userName
-  "Temporary storage of username for login widget"
+  "Temporary storage of username for login widget."
 
   self emailAddressCookie
     ifNotNil: [ :cookie | 
