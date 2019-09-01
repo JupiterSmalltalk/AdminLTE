@@ -16,4 +16,4 @@ renderSidebarOn: canvas
                   canvas listItem
                     class: 'header';
                     with: [ canvas text: 'MAIN NAVIGATION' ].
-                  self renderSidebarMenuPanels: panels on: canvas ] ]
+                  self renderSidebarMenuPanels: self panels on: canvas ] ]
