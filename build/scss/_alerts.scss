@@ -1,47 +1,37 @@
-/*
- * Component: alert
- * ----------------
- */
+//
+// Component: Alert
+//
 
 .alert {
-  @include border-radius(3px);
-  h4 {
-    font-weight: 600;
-  }
   .icon {
     margin-right: 10px;
   }
+
   .close {
-    color: #000;
+    color: $black;
     opacity: .2;
+
     &:hover {
       opacity: .5;
     }
   }
+
   a {
-    color: #fff;
+    color: $white;
     text-decoration: underline;
   }
 }
 
+
 //Alert Variants
-.alert-success {
-  @extend .bg-green;
-  border-color: darken($brand-success, 5%);
-}
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    color: color-yiq($value);
+    background: $value;
+    border-color: darken($value, 5%);
+  }
 
-.alert-danger,
-.alert-error {
-  @extend .bg-red;
-  border-color: darken($brand-danger, 5%);
-}
-
-.alert-warning {
-  @extend .bg-yellow;
-  border-color: darken($brand-warning, 5%);
-}
-
-.alert-info {
-  @extend .bg-aqua;
-  border-color: darken($brand-info, 5%);
+  .alert-default-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+  }
 }
