@@ -2,4 +2,4 @@
 adminLTEBox
   "Create an Admin LTE box."
 
-  ^ self brush: AdminLTEBoxTag new
+  ^ self brush: AdminLTEBoxTitleTag new

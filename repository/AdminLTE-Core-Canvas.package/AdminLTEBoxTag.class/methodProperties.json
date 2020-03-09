@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beDanger" : "jupiter 03/08/2020 21:48",
+		"beDefault" : "jupiter 03/08/2020 21:48",
+		"beInfo" : "jupiter 03/08/2020 21:49",
+		"bePrimary" : "jupiter 03/08/2020 21:48",
+		"beSolid" : "jupiter 03/08/2020 21:49",
+		"beSuccess" : "jupiter 03/08/2020 21:49",
+		"beWarning" : "jupiter 03/08/2020 21:49",
+		"initialize" : "jupiter 03/08/2020 21:48" } }

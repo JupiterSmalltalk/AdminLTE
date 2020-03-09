@@ -1,0 +1,14 @@
+{
+	"category" : "AdminLTE-Core-Canvas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AdminLTEBoxBodyTag",
+	"pools" : [
+		 ],
+	"super" : "TBSGenericTag",
+	"type" : "normal" }
