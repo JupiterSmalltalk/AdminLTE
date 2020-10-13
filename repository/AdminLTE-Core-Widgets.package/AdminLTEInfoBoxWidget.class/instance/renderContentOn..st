@@ -15,4 +15,5 @@ renderContentOn: canvas
                     with: [ self renderIfValueFromObjectOrBlock: self label on: canvas ].
                   canvas span
                     class: 'info-box-number';
-                    with: [ self renderIfValueFromObjectOrBlock: self number on: canvas ] ] ]
+                    with: [ self renderIfValueFromObjectOrBlock: self number on: canvas ].
+                  self renderInfoBoxActionsOn: canvas ] ]
