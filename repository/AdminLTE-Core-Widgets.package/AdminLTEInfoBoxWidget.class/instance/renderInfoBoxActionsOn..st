@@ -2,7 +2,7 @@ rendering
 renderInfoBoxActionsOn: canvas
   "Actions to appear bottom right of the infobox"
 
-  canvas span
+  canvas div
     class: 'info-box-actions';
     style: 'position: relative; right: 1px; bottom: 1px; text-align: right;';
     with: [ 
